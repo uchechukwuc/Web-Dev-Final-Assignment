@@ -1,0 +1,18 @@
+CarEase/
+├─ index.html
+├─ about.html
+├─ services.html
+├─ fleet.html
+├─ contact.html
+├─ README.md
+├─ assets/
+│  ├─ css/
+│  │  └─ styles.css
+│  ├─ js/
+│  │  └─ script.js
+│  └─ images/
+│     ├─ logo.png         <-- placeholder: replace with your logo
+│     ├─ car-1.jpg
+│     ├─ car-2.jpg
+│     ├─ car-3.jpg
+│     └─ hero-bg.jpg

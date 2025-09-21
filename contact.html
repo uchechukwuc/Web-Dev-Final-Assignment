@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LuxeDrive — Contact & Booking</title>
+  <meta name="description" content="Contact LuxeDrive for bookings, support and enquiries." />
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header container header-inner">
+    <a href="index.html" class="brand" aria-label="CarEase Home">
+      <img src="logo.png" alt="LuxeDrive logo" class="logo">
+      <span class="brand-name">LuxeDrive</span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="fleet.html">Fleet</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+          <section id="contact" class="contact section-padding" role="region" aria-labelledby="contact-heading">
+            <div class="container">
+                <div class="text-center fade-in">
+                    <h2 id="contact-heading">Get In Touch</h2>
+                    <p>Ready to hit the road? Contact us today to reserve your perfect vehicle</p>
+                </div>
+                <div class="contact-grid">
+                    <form class="contact-form slide-in-left" aria-labelledby="contact-form-heading">
+                        <h3 id="contact-form-heading">Book Your Vehicle</h3>
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" name="fullName" required aria-describedby="fullName-error">
+                            <span id="fullName-error" class="error-message" role="alert"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required aria-describedby="email-error">
+                            <span id="email-error" class="error-message" role="alert"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required aria-describedby="phone-error">
+                            <span id="phone-error" class="error-message" role="alert"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="vehicleType">Vehicle Type</label>
+                            <select id="vehicleType" name="vehicleType" required>
+                                <option value="">Select a vehicle type</option>
+                                <option value="economy">Economy ($29/day)</option>
+                                <option value="suv">Mid-Size SUV ($49/day)</option>
+                                <option value="luxury">Luxury Sports ($129/day)</option>
+                                <option value="van">Family Van ($69/day)</option>
+                                <option value="convertible">Convertible ($89/day)</option>
+                                <option value="electric">Electric Vehicle ($79/day)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="pickupDate">Pickup Date</label>
+                            <input type="date" id="pickupDate" name="pickupDate" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="returnDate">Return Date</label>
+                            <input type="date" id="returnDate" name="returnDate" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Additional Requirements</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Any special requests or additional information..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Booking Request</button>
+                    </form>
+                    
+                    <div class="contact-info slide-in-right">
+                        <h3>Contact Information</h3>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <strong>Address</strong><br>
+                                123 Premium Drive<br>
+                                Luxury District, LD 12345
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <div>
+                                <strong>Phone</strong><br>
+                                <a href="tel:+1234567890">(123) 456-7890</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">✉️</span>
+                            <div>
+                                <strong>Email</strong><br>
+                                <a href="mailto:info@luxedrive.com">info@luxedrive.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🕒</span>
+                            <div>
+                                <strong>Business Hours</strong><br>
+                                Mon-Fri: 7:00 AM - 10:00 PM<br>
+                                Sat-Sun: 8:00 AM - 9:00 PM
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🆘</span>
+                            <div>
+                                <strong>Emergency Support</strong><br>
+                                24/7 Roadside Assistance<br>
+                                <a href="tel:+1234567899">(123) 456-7899</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year-contact"></span> LuxeDrive — All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js" defer></script>
+</body>
+</html>
